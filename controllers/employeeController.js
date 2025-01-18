@@ -357,9 +357,8 @@ exports.downloadCSV1 = async (req, res) => {
           .json({ message: "Error generating CSV file.", error: err.message });
       } else {
         // Delete the file after download
-        res.status(200).json({
-          message: "file download successfully.",
-        });
+        console.log("File downloaded successfully.");
+
       }
     });
   } catch (error) {

@@ -4,7 +4,7 @@ const {
   addEmployee1,
   uploadCSV1,
   uploadXLSX,
-  downloadCSV,
+  downloadCSV1,
 } = require("../controllers/employeeController");
 const multer = require("multer");
 
@@ -20,6 +20,6 @@ router.post("/upload-csv", upload.single("file"), uploadCSV1);
 router.post("/upload-xlsx", upload.single("file"), uploadXLSX);
 
 // Download CSV route
-router.get("/download-csv", downloadCSV);
+router.get("/download-csv", downloadCSV1);
 
 module.exports = router;

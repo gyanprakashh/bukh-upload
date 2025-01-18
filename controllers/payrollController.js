@@ -33,8 +33,7 @@ function calculateCPF(employee) {
 
 // Generate payroll for an employee
 exports.generatePayroll = async (req, res) => {
-  Payroll.deleteMany({})
-  return
+  
   try {
     const { employeeId, month } = req.body;
     const employee = await Employee.findById(employeeId);
