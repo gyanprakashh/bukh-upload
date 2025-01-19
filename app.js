@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(bodyParser.json());
 
-// Routes
+// Routes 
 //app.use("/api/employees", employeeRoutes);
 //app.use("/api/payroll", payrollRoutes);
 app.get("/", (req, res)=>{
