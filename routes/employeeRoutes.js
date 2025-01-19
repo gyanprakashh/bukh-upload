@@ -20,6 +20,6 @@ router.post("/", addEmployee1);
 //router.post("/upload-xlsx", upload.single("file"), uploadXLSX);
 
 // Download CSV route
-router.get("/download-csv", downloadCSV1);
+//router.get("/download-csv", downloadCSV1);
 
 module.exports = router;
