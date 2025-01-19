@@ -12,6 +12,8 @@ connectDB().then(() => {
 });
 
 // Start the server
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+// Export the app as a serverless function for Vercel
+module.exports = (req, res) => {
+  // Use the Express app to handle the request and response
+  app(req, res);
+};
