@@ -9,8 +9,8 @@ const {
 const multer = require("multer");
 
 // Multer configuration
-const upload = multer({ dest: "uploads/" });
-const router = express.Router();
+//const upload = multer({ dest: "uploads/" });
+//const router = express.Router();
 
 //router.get("/", getAllEmployees);
 //router.post("/", addEmployee1);
