@@ -12,14 +12,14 @@ const multer = require("multer");
 const upload = multer({ dest: "uploads/" });
 const router = express.Router();
 
-router.get("/", getAllEmployees);
-router.post("/", addEmployee1);
+//router.get("/", getAllEmployees);
+//router.post("/", addEmployee1);
 
 // File upload routes
 //router.post("/upload-csv", upload.single("file"), uploadCSV1);
 //router.post("/upload-xlsx", upload.single("file"), uploadXLSX);
 
 // Download CSV route
-router.get("/download-csv", downloadCSV1);
+//router.get("/download-csv", downloadCSV1);
 
 module.exports = router;
