@@ -6,7 +6,7 @@ const {
   uploadXLSX,
   downloadCSV1,
 } = require("../controllers/employeeController");
- //const multer = require("multer");
+//const multer = require("multer");
 
 // Multer configuration
 //const upload = multer({ dest: "uploads/" });
