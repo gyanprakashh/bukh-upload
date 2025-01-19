@@ -16,8 +16,8 @@ router.get("/", getAllEmployees);
 router.post("/", addEmployee1);
 
 // File upload routes
-router.post("/upload-csv", upload.single("file"), uploadCSV1);
-router.post("/upload-xlsx", upload.single("file"), uploadXLSX);
+//router.post("/upload-csv", upload.single("file"), uploadCSV1);
+//router.post("/upload-xlsx", upload.single("file"), uploadXLSX);
 
 // Download CSV route
 router.get("/download-csv", downloadCSV1);
