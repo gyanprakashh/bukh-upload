@@ -12,8 +12,8 @@ const {
 //const upload = multer({ dest: "uploads/" });
 const router = express.Router();
 
-router.get("/", getAllEmployees);
-router.post("/", addEmployee1);
+//router.get("/", getAllEmployees);
+//router.post("/", addEmployee1);
 
 // File upload routes
 //router.post("/upload-csv", upload.single("file"), uploadCSV1);
