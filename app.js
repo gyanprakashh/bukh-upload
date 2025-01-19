@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 // Routes
-app.use("/api/employees", employeeRoutes);
-app.use("/api/payroll", payrollRoutes);
+//app.use("/api/employees", employeeRoutes);
+//app.use("/api/payroll", payrollRoutes);
 app.get("/", (req, res)=>{
     res.send("api is running")
 })
